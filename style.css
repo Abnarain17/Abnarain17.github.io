@@ -102,3 +102,31 @@ footer {
 .icon-btn i {
   font-size: 1.2rem;
 }
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.project-header h3 {
+  margin: 0;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.project-description {
+  display: none;
+  padding: 0.5rem 0 0.5rem 1rem;
+  color: #333;
+}
+.project-card.active .project-description {
+  display: block;
+}
+.project-card.active .arrow {
+  transform: rotate(90deg);
+}
