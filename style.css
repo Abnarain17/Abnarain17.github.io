@@ -76,3 +76,29 @@ footer {
   margin-top: 2rem;
   color: #555;
 }
+.icon-btn {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 0.8rem;
+  background: #333;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.icon-btn.linkedin {
+  background: #0a66c2;
+}
+
+.icon-btn.youtube {
+  background: #ff0000;
+}
+
+.icon-btn:hover {
+  background: #000;
+}
+
+.icon-btn i {
+  font-size: 1.2rem;
+}
